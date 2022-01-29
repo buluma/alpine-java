@@ -21,5 +21,5 @@ LABEL maintainer="hi@beevelop.com" \
 #ENV DEBIAN_FRONTEND=noninteractive \
 #      TERM=xterm
 
-RUN apk add --no-cache java
+RUN apk add --no-cache openjdk-8-jdk-headles
 # RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
