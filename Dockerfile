@@ -24,3 +24,5 @@ RUN \
     rm -rf /var/cache/apk/*
 
 ONBUILD RUN apk update && apk upgrade && apk add openjdk8-jre
+
+RUN java -version
